@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#top{
+    height: 60%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1614705826507-129b02a15fc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80);
+    background-position: bottom;
+    background-size: cover;
+}
+#overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(101, 97, 97, 0.26);
+}
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    padding: 0 10vw;
+    width: 100%;
+}
+#text h1{
+    font-weight: 500;
+    font-size: 6vw;
+}
+#textright{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#textright p{
+    font-size: 18px;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+#textright i{
+    color: rgb(9, 9, 10);
+}
+
+#bottom{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(26, 26, 82);
+}
+#b1{
+    padding: 30px;
+    width: 25%;
+    height: 100%;
+    background-color: azure;
+}
+#b1 p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+#b2{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1496429862132-5ab36b6ae330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#b3{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(33, 168, 33);
+}
+#b3top{
+    padding: 20px;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(227, 85, 37);
+    color: aliceblue;
+}
+#b3top p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+#b3bot{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1528668196720-27460849c191?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#b4{
+    width: 30%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(178, 232, 232, 0.871);
+
+}
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(246, 246, 35);
+    border: 2px solid rgb(254, 3, 3);
+}
+.notf p{
+    width: 86%;
+    font-size: 16px;
+}

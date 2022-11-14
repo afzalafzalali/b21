@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(251, 254, 254);
+}
+
+#top{
+    width: 100%;
+    height: 50%;
+    background-color: darkcyan;
+}
+
+

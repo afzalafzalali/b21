@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(241, 244, 244, 0.95);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main img{
+    height: 600px;
+    position: relative;
+    z-index: 999;
+    object-fit: cover;
+
+}
+#scroll-div{
+    position: absolute;
+    top: 24%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    }
+#scroll-div::-webkit-scrollbar{
+    display: none;
+   
+}
+#scroll-div h1{
+    display: inline;
+    font-size: 140px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    font-family: monument;
+    animation-name: scroll;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite22;
+}
+#scroll-div2{
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    z-index: 1000;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    animation-name: scroll;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+}
+#scroll-div2::-webkit-scrollbar{
+    display: none;
+}
+#scroll-div2 h1{
+    display: inline;
+    font-size: 140px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: 3px;
+    font-family: monument;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#scroll-div3{
+    position: absolute;
+    top: 64%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    animation-name: scroll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+#scroll-div3::-webkit-scrollbar{
+    display: none;
+}
+#scroll-div3 h1{
+    display: inline;
+    font-size: 140px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    font-family: monument;
+    
+}
+#text{
+    font-size: 35px;
+    position: absolute;
+    font-family: Voyage Regular;
+    width: 60%;
+    z-index: 10000;
+    top: 13%;
+    text-transform: uppercase;
+    text-align: center;
+}
+@keyframes scroll 
+ {
+    from{
+        transform: translateX(calc(-100% - 30px));
+    }
+    to{
+        transform: translateX(0);
+    }
+}
